@@ -3,27 +3,263 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio Acadêmico</title>
+    <meta name="description" content="Portfólio de Felipe, estudante de Engenharia de Computação e desenvolvedor interessado em hardware, software e programação low-level.">
+    <meta name="theme-color" content="#080d17">
+    <title>Felipe | Desenvolvimento, Hardware & Low-level</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main class="container">
-        <header>
-            <h1>Olá, eu sou o Felipe! 👋</h1>
-            <p class="subtitle">Estudante de Engenharia de Computação | Desenvolvedor em formação</p>
-        </header>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
 
-        <section class="bio">
-            <h2>Sobre Mim</h2>
-            <p>Seja bem-vindo ao meu portfólio acadêmico. Aqui compartilho meus aprendizados em desenvolvimento de software, automações e projetos práticos desenvolvidos durante meus estudos.</p>
+    <header class="site-header">
+        <div class="nav-container">
+            <a class="brand" href="#inicio" aria-label="Felipe — página inicial">
+                <span class="brand-mark">F<span>.</span></span>
+                <span class="brand-name">FELIPE</span>
+            </a>
+
+            <nav class="main-nav" aria-label="Navegação principal">
+                <a href="#sobre">Sobre</a>
+                <a href="#competencias">Competências</a>
+                <a href="#interesses">Interesses</a>
+                <a class="nav-contact" href="#contato">Contato <span aria-hidden="true">↗</span></a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="conteudo">
+        <section class="hero section-shell" id="inicio" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="eyebrow-line"></span> ENGENHARIA DE COMPUTAÇÃO · DESENVOLVIMENTO</p>
+                <h1 id="hero-title">Olá, eu sou o <span class="text-gradient">Felipe.</span></h1>
+                <p class="hero-lead">
+                    Desenvolvedor com grande entusiasmo por <strong>hardware</strong> e programação
+                    <strong>low-level</strong>.
+                </p>
+                <p class="hero-description">
+                    Gosto de explorar como software e hardware se conectam, entender o que acontece
+                    por trás das abstrações e transformar curiosidade técnica em projetos práticos.
+                </p>
+
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#competencias">Conheça minhas competências <span aria-hidden="true">↓</span></a>
+                    <a class="button button-secondary" href="https://github.com/felipe-io" target="_blank" rel="noopener noreferrer">
+                        Meu GitHub <span aria-hidden="true">↗</span>
+                    </a>
+                </div>
+
+                <div class="hero-note">
+                    <span class="note-dot" aria-hidden="true"></span>
+                    Estudante de Engenharia de Computação
+                </div>
+            </div>
+
+            <aside class="hero-card" aria-label="Áreas de interesse">
+                <div class="card-topline">
+                    <span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+                    <span class="card-label">ÁREAS DE INTERESSE</span>
+                    <span class="card-index">01 / 03</span>
+                </div>
+                <div class="interest-stack">
+                    <div class="interest-item">
+                        <span class="interest-number">01</span>
+                        <div>
+                            <span class="interest-title">Hardware</span>
+                            <span class="interest-caption">Arquitetura · Componentes · Integração</span>
+                        </div>
+                        <span class="interest-symbol" aria-hidden="true">⌘</span>
+                    </div>
+                    <div class="interest-item">
+                        <span class="interest-number">02</span>
+                        <div>
+                            <span class="interest-title">Low-level</span>
+                            <span class="interest-caption">C · Sistemas · Fundamentos</span>
+                        </div>
+                        <span class="interest-symbol" aria-hidden="true">&lt;/&gt;</span>
+                    </div>
+                    <div class="interest-item">
+                        <span class="interest-number">03</span>
+                        <div>
+                            <span class="interest-title">Software</span>
+                            <span class="interest-caption">Desenvolvimento · Aplicações</span>
+                        </div>
+                        <span class="interest-symbol" aria-hidden="true">{ }</span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <span>APRENDER</span>
+                    <span class="footer-line" aria-hidden="true"></span>
+                    <span>CONSTRUIR</span>
+                    <span class="footer-line" aria-hidden="true"></span>
+                    <span>EXPLORAR</span>
+                </div>
+            </aside>
+
+            <a class="scroll-cue" href="#sobre" aria-label="Rolar para a seção Sobre">
+                <span class="scroll-cue-line" aria-hidden="true"></span>
+                <span>ROLE PARA EXPLORAR</span>
+            </a>
         </section>
 
-        <section class="links-section">
-            <h2>Meus Repositórios estão no Github!</h2>
-            <ul class="link-list">
-                <li><a href="https://github.com/felipe-io" target="_blank">Repositórios</a></li>
-            </ul>
+        <section class="content-section section-shell" id="sobre" aria-labelledby="about-title">
+            <div class="section-heading">
+                <p class="eyebrow"><span class="eyebrow-line"></span> 01 — QUEM SOU</p>
+                <h2 id="about-title">Curiosidade que <span class="text-gradient">vira construção.</span></h2>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-copy">
+                    <p class="lead-paragraph">
+                        Sou estudante de Engenharia de Computação pela Universidade Federal de Ciência e Inovação de Minas Gerais. Tenho um grande
+                        interesse por tecnologias, especialmente pela relação entre o mundo físico
+                        dos componentes e a lógica que faz o software funcionar.
+                    </p>
+                    <p>
+                        Meu entusiasmo por hardware e programação de baixo nível me motiva a estudar
+                        os fundamentos, experimentar ferramentas diferentes e ampliar meus conhecimentos
+                        em desenvolvimento de software, automação e sistemas.
+                    </p>
+                </div>
+
+                <div class="about-aside">
+                    <span class="aside-kicker">MINHA ABORDAGEM</span>
+                    <div class="approach-row">
+                        <span class="approach-icon" aria-hidden="true">01</span>
+                        <div>
+                            <h3>Entender</h3>
+                            <p>Investigar conceitos e fundamentos.</p>
+                        </div>
+                    </div>
+                    <div class="approach-row">
+                        <span class="approach-icon" aria-hidden="true">02</span>
+                        <div>
+                            <h3>Experimentar</h3>
+                            <p>Aprender colocando ideias em prática.</p>
+                        </div>
+                    </div>
+                    <div class="approach-row">
+                        <span class="approach-icon" aria-hidden="true">03</span>
+                        <div>
+                            <h3>Desenvolver</h3>
+                            <p>Conectar conhecimentos em projetos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section skills-section section-shell" id="competencias" aria-labelledby="skills-title">
+            <div class="section-heading section-heading-split">
+                <div>
+                    <p class="eyebrow"><span class="eyebrow-line"></span> 02 — CAIXA DE FERRAMENTAS</p>
+                    <h2 id="skills-title">Tecnologias & <span class="text-gradient">competências.</span></h2>
+                </div>
+                <p class="heading-description">Ferramentas e tecnologias com as quais tenho contato nos meus estudos e projetos.</p>
+            </div>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <div class="skill-card-top">
+                        <span class="skill-icon" aria-hidden="true">{ }</span>
+                        <span class="skill-count">05 ITENS</span>
+                    </div>
+                    <h3>Desenvolvimento de Software</h3>
+                    <p>Linguagens e ambiente para criação de aplicações.</p>
+                    <div class="skill-tags">
+                        <span>Kotlin</span>
+                        <span>Java</span>
+                        <span>Python</span>
+                        <span>C</span>
+                        <span>Android Studio</span>
+                    </div>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-card-top">
+                        <span class="skill-icon" aria-hidden="true">⌘</span>
+                        <span class="skill-count">04 TAGS</span>
+                    </div>
+                    <h3>Hardware & Automação</h3>
+                    <p>Ferramentas de prototipagem, desenho técnico e automação industrial.</p>
+                    <div class="skill-tags">
+                        <span>Tinkercad</span>
+                        <span>AutoCAD</span>
+                        <span>Softwares de CLPs</span>
+                    </div>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-card-top">
+                        <span class="skill-icon" aria-hidden="true">⌁</span>
+                        <span class="skill-count">01 FERRAMENTA</span>
+                    </div>
+                    <h3>Documentação Técnica</h3>
+                    <p>Produção e organização de documentos técnicos e acadêmicos.</p>
+                    <div class="skill-tags">
+                        <span>Overleaf</span>
+                    </div>
+                </article>
+            </div>
+            <p class="skills-footnote">A lista reúne tecnologias e ferramentas que fazem parte da minha experiência de estudo e prática.</p>
+        </section>
+
+        <section class="content-section focus-section section-shell" id="interesses" aria-labelledby="focus-title">
+            <div class="section-heading">
+                <p class="eyebrow"><span class="eyebrow-line"></span> 03 — O QUE ME MOVE</p>
+                <h2 id="focus-title">Entre o código e o <span class="text-gradient">mundo físico.</span></h2>
+                <p class="focus-intro">
+                    O que mais me chama atenção na computação é poder transitar entre diferentes
+                    camadas da tecnologia: da lógica do código ao comportamento do hardware.
+                </p>
+            </div>
+
+            <div class="focus-grid">
+                <article class="focus-card focus-card-large">
+                    <span class="focus-card-label">01 / INTERESSE PRINCIPAL</span>
+                    <div class="focus-card-content">
+                        <span class="focus-mark" aria-hidden="true">H/W</span>
+                        <div>
+                            <h3>Hardware</h3>
+                            <p>Explorar componentes, dispositivos e a integração entre sistemas físicos e software.</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="focus-card">
+                    <span class="focus-card-label">02 / FUNDAMENTOS</span>
+                    <span class="focus-mark" aria-hidden="true">&lt;C&gt;</span>
+                    <h3>Programação low-level</h3>
+                    <p>Entender melhor como os programas interagem com a máquina e o que acontece por trás das abstrações.</p>
+                </article>
+                <article class="focus-card">
+                    <span class="focus-card-label">03 / APLICAÇÃO</span>
+                    <span class="focus-mark" aria-hidden="true">{ }</span>
+                    <h3>Desenvolvimento</h3>
+                    <p>Usar programação e ferramentas de engenharia para desenvolver soluções e aprender na prática.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="contact-section section-shell" id="contato" aria-labelledby="contact-title">
+            <div class="contact-panel">
+                <p class="eyebrow"><span class="eyebrow-line"></span> 04 — CONEXÕES</p>
+                <h2 id="contact-title">Vamos construir <span class="text-gradient">algo interessante?</span></h2>
+                <p>Você pode acompanhar meus repositórios, estudos e projetos pelo GitHub.</p>
+                <a class="button button-primary" href="https://github.com/felipe-io" target="_blank" rel="noopener noreferrer">
+                    Acessar meu GitHub <span aria-hidden="true">↗</span>
+                </a>
+            </div>
         </section>
     </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <a class="brand footer-brand" href="#inicio" aria-label="Voltar ao início">
+                <span class="brand-mark">F<span>.</span></span>
+                <span class="brand-name">FELIPE</span>
+            </a>
+            <p>Desenvolvido com curiosidade e vontade de aprender.</p>
+            <a class="back-to-top" href="#inicio">VOLTAR AO TOPO ↑</a>
+        </div>
+    </footer>
 </body>
 </html>
